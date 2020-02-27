@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto';
+
+}
+
+h1{
+    font-size: 40px;
+  
+}
+.name-hilight{
+    color: orange;
+}
+.half-area{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding: 2%;
+}
+
+.half-area img{
+    width: 100%;
+}
+.header-area{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.anchor{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 8px 28px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
+.anchor:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+/*************
+End of header
+*************/
+
+
+
+.footer-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.footer-image img{
+    width: 100%;
+}
+.footer-dream{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.anchor2{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg, #8854d0, #a55eea);
+    color: white;
+    text-transform: uppercase;
+}
+.anchor2:hover{
+    text-decoration: underline;
+    color: #32ff7e;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.main-area {
+    background-image: url("images/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-area img{
+    margin-top: 30px;
+}
+.left-area{
+    width: 44%;
+    float: left;
+    border-left: 6px solid red;
+    height: 360px;
+    box-shadow: black 0px 2px 19px 0px;
+    border-image-slice: 1;
+}
+.right-area{
+    width: 44%;
+    float: left;
+    border-left: 6px solid green;
+    height: 360px;
+    box-shadow: black 0px 2px 19px 0px;
+    margin-left: 109px;
+
+}
+.right-area:hover{
+    border-image: linear-gradient(180deg, #fff200, #32ff7e);
+    border-image-slice: 1;
+    box-shadow: #5f27cd 0px 2px 19px 0px;
+}
+.left-area:hover{
+    border-image: linear-gradient(180deg, #1e3799,#eb2f06);
+    border-image-slice: 1;
+    box-shadow: #5f27cd 0px 2px 19px 0px;
+}
+.last-area h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: orange;
+    margin-left: 32px;
+}
+.last-area h1{
+    text-transform: capitalize;
+    margin-left: 32px;
+}
+.last-area p{
+    margin-left: 32px;
+    color: dimgray;
+}
+.last-area {
+    background-image: url("images/exp-bg.png");
+    height: 418px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.under-line-area{
+    text-align: center;
+    color: #34495e;
+    font-size: 12px;
+}
